@@ -36,4 +36,9 @@ _This will place it in `C:/Users/System32/` directory_
 
 ---  
 
++ Modify **_item-component.ts_** to import **Include** `import { ..., Input} from '@angular/core';`
++ Remove its reference in the constructor, and append `@Input() ` in the same line before the property declaration
++ Modify **_user-component.html** to soley print the name using template tags
++ Modify **_list-component.html_** to reference the item tag, passing through the name, instead of printing Hello name: `<app-user-item [name]="name"></app-user-item>`  
 
+---  
