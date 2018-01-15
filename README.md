@@ -17,3 +17,8 @@ _This will place it in `C:/Users/System32/` directory_
 + Modify the _hello-world.component.html_ file and any others as willed (CSS or changing Typescript class decorations or constructor method)
 + Modify the _app.component.html_ file to include a reference to our new _selector_ tag. Without it our component will not be compiled and displayed on the webpage.
 + Run `ng serve --open` again to see the changes. (:
+
++ Create another component, called user-item: `ng generate component user-item`
++ Add a property called name with a type of string to the new Typescript class (`name: string;`) within the OnInit section
++ In the constructor, declare the user name- `this.name = 'Felipe';`
++ Modify this one's html to greet with `Welcome, {{name}}`. The _template tags_ allow us to leverage the name property from the bound user-item class.
