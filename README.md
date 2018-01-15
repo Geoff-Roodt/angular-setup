@@ -11,7 +11,7 @@ _Things you must do:_
 _This will place it in `C:/Users/System32/` directory_
 + Run either `ng serve` and note the **port it specifies** then open Chrome and navigate to `localHost:4002` Or run `ng serve --open` from the command line.  
 
-### Creating Own Component:
+### Creating a Component:
 + Navigate to the application directory
 + Run `ng generate component hello-world`. This will create a new folder with the Typescript class, HTML and CSS files under `src/app/hello-world/`
 + Modify the _hello-world.component.html_ file and any others as willed (CSS or changing Typescript class decorations or constructor method)
