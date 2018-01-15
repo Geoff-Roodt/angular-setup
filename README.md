@@ -20,12 +20,16 @@ _This will place it in `C:/Users/System32/` directory_
 
 ---  
 
+### Properties in Components  
+
 + Create another component, called user-item: `ng generate component user-item`
 + Add a property called name with a type of string to the new Typescript class (`name: string;`) within the OnInit section
 + In the constructor, declare the user name- `this.name = 'Felipe';`
 + Modify this one's html to greet with `Welcome, {{name}}`. The _template tags_ allow us to leverage the name property from the bound user-item class.  
 
 ---  
+
+### Lists in Components  
 
 + Create another component, called user-list: `ng generate component user-list`
 + Add an array of strings to the TS class- `name: string[];`
@@ -35,6 +39,8 @@ _This will place it in `C:/Users/System32/` directory_
 + Run the server and refresh the page!  
 
 ---  
+
+### Passing Through Parameters to Components  
 
 + Modify **_item-component.ts_** to import **Include** the input action: `import { ..., Input} from '@angular/core';`
 + Remove its reference in the constructor, and append `@Input() ` in the same line before the property declaration
