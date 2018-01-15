@@ -9,7 +9,6 @@ _Things you must do:_
 + Install Angular via command line `npm install -g @angular/cli`
 + Create a new Angular app from command line `ng new angular-hello-world`
 _This will place it in `C:/Users/System32/` directory_
-+ Run either `ng serve` and note the **port it specifies** then open Chrome and navigate to `localHost:4002`
-.+ Or run `ng serve --open` from the command line.
++ Run either `ng serve` and note the **port it specifies** then open Chrome and navigate to `localHost:4002` Or run `ng serve --open` from the command line.
 
 
