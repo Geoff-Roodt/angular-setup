@@ -1,5 +1,5 @@
-# angular-setup
----  
+# angular-setup  
+
 ### Lesson I: Setting Up Angular (Hello World)  
 _Things you must do:_
 + Download and install (Node.js)[https://nodejs.org/en/download]
@@ -18,14 +18,22 @@ _This will place it in `C:/Users/System32/` directory_
 + Modify the _app.component.html_ file to include a reference to our new _selector_ tag. Without it our component will not be compiled and displayed on the webpage.
 + Run `ng serve --open` again to see the changes. (:  
 
+---  
 
 + Create another component, called user-item: `ng generate component user-item`
 + Add a property called name with a type of string to the new Typescript class (`name: string;`) within the OnInit section
 + In the constructor, declare the user name- `this.name = 'Felipe';`
 + Modify this one's html to greet with `Welcome, {{name}}`. The _template tags_ allow us to leverage the name property from the bound user-item class.  
 
+---  
+
 + Create another component, called user-list: `ng generate component user-list`
 + Add an array of strings to the TS class- `name: string[];`
 + Then, construct the array of strings: `this.name = ['Ari','Carlos','Felipe','Nate'];`
 + Modify the HTML to loop over the array and print out the name: `<ul> <li *ngFor="let name of names"> Hello {{name}} </li> </ul>`
-+ Launch the server and refresh the page!
++ Modify the _App Component HTML_ to reference the user-list tag rather than user-item
++ Run the server and refresh the page!  
+
+---  
+
+
