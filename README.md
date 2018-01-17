@@ -2,7 +2,8 @@
 
 ### Lesson I: Setting Up Angular (Hello World)  
 _Things you must do:_
-+ Download and install [Node.js](https://nodejs.org/en/download)
++ Download and install [Node.js](https://nodejs.org/en/download)  
++ Download and install [Atom](https://atom.io). We'll use this as our text editor for the projects.
 + **Restart the pc**
 + Check the Node and Node Package Manager versions by running a command line- `node -v` and `npm -v`
 + Install Typescript via command line `npm install -g typescript`
