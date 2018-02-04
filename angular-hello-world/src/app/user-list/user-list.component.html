@@ -1,5 +1,8 @@
 <ul>
+	<!-- Equivalent to C#'s 'For Each (x =>)' syntax, this Angular notation will cycle over our collection of names and create a user-item component for each one;
+			thus displaying each user on the page for us. -->
 	<li *ngFor="let name of names">
+		<!-- Print the user-item component and INJECT our user's name as a paramter -->
 		<app-user-item [name]="name"></app-user-item>
 	</li>
 </ul>

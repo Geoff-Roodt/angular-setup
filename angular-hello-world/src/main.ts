@@ -8,5 +8,6 @@ if (environment.production) {
   enableProdMode();
 }
 
+// This is what links our App.Module TypeScript class in the app folder to the main index
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
